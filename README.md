@@ -1,0 +1,3 @@
+# Stack Overflow Error in JavaScript Recursive Function
+
+This repository demonstrates a common error in JavaScript: stack overflow errors caused by unbounded recursion.  The `bug.js` file contains a recursive function that, under certain conditions, will exceed the JavaScript call stack limit, resulting in a crash.  The solution, found in `bugSolution.js`, addresses this by introducing a base case that prevents infinite recursion.
